@@ -10,7 +10,8 @@ public class HumanPlayer implements Player{
     Scanner scanner = new Scanner(System.in);
     @Override
     public long askNextGuess() {
-        return 0;
+        long result = this.scanner.nextLong();
+        return result;
     }
 
     @Override

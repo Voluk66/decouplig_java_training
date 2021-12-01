@@ -26,17 +26,23 @@ public class Simulation {
      */
     private boolean nextRound() {
         //TODO implement me
-        Scanner scanner = new Scanner(System.in);
-        long PlayerNumber = scanner.nextLong();
+        boolean lowerOrgreater = false;
+        //Scanner scanner = new Scanner(System.in);
+
+        long PlayerNumber = player.askNextGuess();
         if (PlayerNumber == this.numberToGuess){
+            logger.log(String.valueOf(PlayerNumber));
             logger.log("GG tu as trouvé le nombre etait:" + this.numberToGuess);
             return true;
         }
         if (PlayerNumber < this.numberToGuess){
             logger.log("le nombre entré est plus petit que celui a deviné");
+            player.respond(true);
         }
         else{
             logger.log("le nombre entré est plus grand que celui a deviné");
+            player.respond(false);
+
         }
         return false;
 
@@ -53,7 +59,7 @@ public class Simulation {
             PV--;
             if (PV == 0){
                 fin = System.currentTimeMillis();
-                logger.log("Le joueur n'as plus de tentative");
+                logger.log("Le joueur n'as plus de tentative\nLe nombre etait "+String.valueOf(this.numberToGuess));
                 break;
             }
         }
