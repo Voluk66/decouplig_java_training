@@ -16,3 +16,14 @@
 2021-12-01 15:00:53.756 Simulation GG tu as trouvé le nombre etait:2
 2021-12-01 15:00:53.759 Simulation Le joueur a trouvé le nombre il lui reste 4 tentatives
 2021-12-01 15:00:53.760 Simulation Le jeux a duree 0:0:53
+2021-12-01 15:18:02.802 Simulation Debut de la partie
+2021-12-01 15:18:02.821 Simulation le nombre entré est plus petit que celui a deviné
+2021-12-01 15:18:02.821 Simulation le nombre entré est plus grand que celui a deviné
+2021-12-01 15:18:02.822 Simulation le nombre entré est plus petit que celui a deviné
+2021-12-01 15:18:02.823 Simulation le nombre entré est plus petit que celui a deviné
+2021-12-01 15:18:02.824 Simulation le nombre entré est plus petit que celui a deviné
+2021-12-01 15:18:02.824 Simulation le nombre entré est plus petit que celui a deviné
+2021-12-01 15:18:02.825 Simulation 74
+2021-12-01 15:18:02.829 Simulation GG tu as trouvé le nombre etait:74
+2021-12-01 15:18:02.833 Simulation Le joueur a trouvé le nombre il lui reste 4 tentatives
+2021-12-01 15:18:02.834 Simulation Le jeux a duree 0:0:46
