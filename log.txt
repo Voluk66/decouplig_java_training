@@ -1,18 +1,18 @@
-2021-12-01 14:55:27.535 Simulation Debut de la partie
-2021-12-01 14:55:27.553 Player 50
-2021-12-01 14:55:27.554 Simulation le nombre entré est plus grand que celui a deviné
-2021-12-01 14:55:27.554 Player 50
-2021-12-01 14:55:27.555 Simulation le nombre entré est plus petit que celui a deviné
-2021-12-01 14:55:27.555 Player 25
-2021-12-01 14:55:27.555 Simulation le nombre entré est plus grand que celui a deviné
-2021-12-01 14:55:27.556 Player 37
-2021-12-01 14:55:27.556 Simulation le nombre entré est plus grand que celui a deviné
-2021-12-01 14:55:27.556 Player 31
-2021-12-01 14:55:27.556 Simulation le nombre entré est plus petit que celui a deviné
-2021-12-01 14:55:27.557 Player 28
-2021-12-01 14:55:27.557 Simulation le nombre entré est plus petit que celui a deviné
-2021-12-01 14:55:27.558 Player 29
-2021-12-01 14:55:27.559 Simulation 30
-2021-12-01 14:55:27.563 Simulation GG tu as trouvé le nombre etait:30
-2021-12-01 14:55:27.566 Simulation Le joueur a trouvé le nombre il lui reste 4 tentatives
-2021-12-01 14:55:27.567 Simulation Le jeux a duree 0:0:46
+2021-12-01 15:00:53.723 Simulation Debut de la partie
+2021-12-01 15:00:53.741 Player 50
+2021-12-01 15:00:53.742 Simulation le nombre entré est plus grand que celui a deviné
+2021-12-01 15:00:53.743 Player 50
+2021-12-01 15:00:53.743 Simulation le nombre entré est plus grand que celui a deviné
+2021-12-01 15:00:53.744 Player 25
+2021-12-01 15:00:53.745 Simulation le nombre entré est plus grand que celui a deviné
+2021-12-01 15:00:53.745 Player 12
+2021-12-01 15:00:53.746 Simulation le nombre entré est plus grand que celui a deviné
+2021-12-01 15:00:53.747 Player 6
+2021-12-01 15:00:53.749 Simulation le nombre entré est plus grand que celui a deviné
+2021-12-01 15:00:53.749 Player 3
+2021-12-01 15:00:53.750 Simulation le nombre entré est plus petit que celui a deviné
+2021-12-01 15:00:53.751 Player 1
+2021-12-01 15:00:53.751 Simulation 2
+2021-12-01 15:00:53.756 Simulation GG tu as trouvé le nombre etait:2
+2021-12-01 15:00:53.759 Simulation Le joueur a trouvé le nombre il lui reste 4 tentatives
+2021-12-01 15:00:53.760 Simulation Le jeux a duree 0:0:53
