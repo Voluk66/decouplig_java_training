@@ -1,6 +1,7 @@
 package fr.lernejo.guessgame;
 
 import fr.lernejo.logger.ConsoleLogger;
+import fr.lernejo.logger.ContextualLogger;
 import fr.lernejo.logger.Logger;
 import fr.lernejo.logger.LoggerFactory;
 
@@ -9,7 +10,7 @@ import java.security.SecureRandom;
 public class Launcher {
     public static void main(String[] args) {
         final int Max = 100;
-        ConsoleLogger Clogger = (ConsoleLogger) LoggerFactory.getLogger("launche");
+        ContextualLogger Clogger = (ContextualLogger) LoggerFactory.getLogger("Launcher");
         SecureRandom random = new SecureRandom();
         long randomNumber = random.nextInt(Max);
         if (args[0].equals("-interactive")){

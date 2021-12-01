@@ -4,7 +4,7 @@ import fr.lernejo.logger.Logger;
 import fr.lernejo.logger.LoggerFactory;
 
 public class ComputerPlayer implements Player{
-    Logger logger = LoggerFactory.getLogger("player");
+    Logger logger = LoggerFactory.getLogger("Player");
     boolean Starting = true;
     boolean lowerOrGreater = false;
     long nextGuess = 50;
