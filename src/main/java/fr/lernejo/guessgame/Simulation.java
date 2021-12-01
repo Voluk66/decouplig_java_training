@@ -43,25 +43,32 @@ public class Simulation {
 
     }
 
-    public void loopUntilPlayerSucceed() {
+    public void loopUntilPlayerSucceed(long p_pv) {
         //TODO implement me
         long depart = System.currentTimeMillis();
-        int PV = 20;
+        long fin = 0;
+        long PV = p_pv;
         logger.log("Debut de la partie");
         while (!this.nextRound()){
             PV--;
             if (PV == 0){
+                fin = System.currentTimeMillis();
+                logger.log("Le joueur n'as plus de tentative");
                 break;
             }
         }
         if (PV > 0){
             String SPV = String.valueOf(PV);
             logger.log("Le joueur a trouvé le nombre il lui reste "+SPV+" tentatives");
-            long fin = System.currentTimeMillis();
-            long Duree = fin - depart;
-            String SDuree = String.valueOf(Duree);
-            logger.log("Le jeux a duree "+SDuree);
-
+            fin = System.currentTimeMillis();
         }
+        long Duree = fin - depart;
+        int ms = (int) (Duree % 1000);
+        int s = (int)(Duree - ms)/1000;
+        int min = (int)(Duree - s - ms)/60000;
+        String Sms = String.valueOf(ms);
+        String Ss = String.valueOf(s);
+        String Smin = String.valueOf(min);
+        logger.log("Le jeux a duree "+Smin+":"+Ss+":"+Sms);
     }
 }
