@@ -19,7 +19,7 @@ public class Launcher {
             Simulation simulation = new Simulation(Hplayer);
             simulation.initialize(randomNumber);
             simulation.loopUntilPlayerSucceed(MaxValue);
-            return;
+            //return;
         }
         if (args[0].equals("-auto")){
             try {
@@ -32,11 +32,11 @@ public class Launcher {
                 Clogger.log("Erreur: "+e+"\nVeuillez en deuxieme argument un nombre d'essai");
 
             }
-            return;
+            //return;
         }
         else{
             Clogger.log("Les deux seul option sont : -interactive et -auto <int>\nVeuillez entrez une des ces options");
-            return;
+            //return;
         }
 
     }
