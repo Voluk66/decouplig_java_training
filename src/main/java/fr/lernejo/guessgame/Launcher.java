@@ -19,21 +19,24 @@ public class Launcher {
             Simulation simulation = new Simulation(Hplayer);
             simulation.initialize(randomNumber);
             simulation.loopUntilPlayerSucceed(MaxValue);
+            return;
         }
         if (args[0].equals("-auto")){
             try {
                 long Lnum = Long.valueOf(args[1]);
                 ComputerPlayer Cplayer = new ComputerPlayer();
                 Simulation simulation = new Simulation(Cplayer);
-                simulation.initialize(randomNumber);
-                simulation.loopUntilPlayerSucceed(Lnum);
+                simulation.initialize(Lnum);
+                simulation.loopUntilPlayerSucceed(20);
             } catch (NumberFormatException e) {
                 Clogger.log("Erreur: "+e+"\nVeuillez en deuxieme argument un nombre d'essai");
 
             }
+            return;
         }
         else{
             Clogger.log("Les deux seul option sont : -interactive et -auto <int>\nVeuillez entrez une des ces options");
+            return;
         }
 
     }

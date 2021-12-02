@@ -7,9 +7,9 @@ public class ComputerPlayer implements Player{
     Logger logger = LoggerFactory.getLogger("Player");
     boolean Starting = true;
     boolean lowerOrGreater = false;
-    long nextGuess = 50;
-    long up  = 100;
+    long up = 100 ;
     long down = 0;
+    long nextGuess = (up+down)/2;
     @Override
     public long askNextGuess() {
         logger.log(String.valueOf(this.nextGuess));

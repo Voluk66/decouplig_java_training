@@ -32,15 +32,15 @@ public class Simulation {
         long PlayerNumber = player.askNextGuess();
         if (PlayerNumber == this.numberToGuess){
             logger.log(String.valueOf(PlayerNumber));
-            logger.log("GG tu as trouvé le nombre etait:" + this.numberToGuess);
+            logger.log("bravo tu as trouvé le nombre etait:" + this.numberToGuess);
             return true;
         }
         if (PlayerNumber < this.numberToGuess){
-            logger.log("le nombre entré est plus petit que celui a deviné");
+            logger.log("Plus grand");
             player.respond(true);
         }
         else{
-            logger.log("le nombre entré est plus grand que celui a deviné");
+            logger.log("Plus petit");
             player.respond(false);
 
         }
