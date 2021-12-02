@@ -14,7 +14,7 @@ public class Launcher {
         SecureRandom random = new SecureRandom();
         long randomNumber = random.nextInt(Max);
         if (args[0].equals("-interactive")){
-            int MaxValue = 20;
+            int MaxValue = 100;
             HumanPlayer Hplayer = new HumanPlayer();
             Simulation simulation = new Simulation(Hplayer);
             simulation.initialize(randomNumber);
